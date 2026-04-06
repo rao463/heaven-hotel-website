@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <meta name="descriotion" content="welcome to the most extraordinary hotel in lebanon">
+    <meta nane="keywords" content="hotel,lebanon hotel,beirut hotel">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Heaven Hotel</title>
+</head>
+
+<body>
+    <nav id="navbar" class="navbar bg-body-tertiary">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="logo.png" alt="Hotel Paradise Logo" />
+            <span class="shortname">HBT</span>
+        </a>
+        <ul class="flex">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="amenities.html">Amenities</a></li>
+            <li><a href="book.html">Book Now</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section class="container">
+        <h2>Book a room</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Customer name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="date1" class="form-label">Checkin date</label>
+                <input type="date" class="form-control" id="date1">
+            </div>
+            <div class="mb-3">
+                <label for="date2" class="form-label">Checkout date</label>
+                <input type="date" class="form-control" id="date2">
+            </div>            
+            <div class="mb-3">
+                <label for="people" class="form-label">Number of people</label>
+                <input type="number" class="form-control" id="people">
+            </div>
+            <div class="mb-3">
+                <label for="number" class="form-label">Number</label>
+                <input type="text" class="form-control" id="number">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="comment" class="form-label">Comment</label>
+                <textarea class="form-control" id="comment"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>

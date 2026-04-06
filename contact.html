@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <meta name="descriotion" content="welcome to the most extraordinary hotel in lebanon">
+    <meta nane="keywords" content="hotel,lebanon hotel,beirut hotel">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Heaven Hotel</title>
+</head>
+<body>
+    <nav id="navbar" class="navbar bg-body-tertiary">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="logo.png" alt="Hotel Paradise Logo" />
+            <span class="shortname">HBT</span>
+        </a>
+        <ul class="flex">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="amenities.html">Amenities</a></li>
+            <li><a href="book.html">Book Now</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section class="container">
+        <h1>Contact Us</h1>
+    
+        <h2>Address and P.O Box:</h2>
+        <p>123 Main Street<br>
+        Beirut, Lebanon <br>
+        P.O Box: 45678</p>
+    
+        <h2>Map:</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.466002110148!2d35.51176861519796!3d33.893791080635154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f1622d1caaaab%3A0x4d4e923b12d5827e!2sBeirut!5e0!3m2!1sen!2slb!4v1647959294816!5m2!1sen!2slb" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <h2>List of Key Personnel:</h2>
+        <ul>
+            <li><strong>John Doe</strong> - General Manager - <a href="mailto:john.doe@gmail.com">john.doe@gmail.com</a></li>
+            <li><strong>Jane Smith</strong> - Reservations Manager - <a href="mailto:jane.smith@gmail.com">jane.smith@gmail.com</a></li>
+        </ul>
+    
+        <h2>Send a Message:</h2>
+        <form action="submit-message.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+    
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+    
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+</body>
+</html>
